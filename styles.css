@@ -702,3 +702,20 @@ a:hover {
 .hero-right .profile-card hr {
     display: none;
 }
+
+/* Research page paragraph indentation */
+.research-overview p {
+    text-indent: 2em;
+}
+
+/* Make the three research questions more indented */
+.research-questions {
+    margin-left: 4em;
+    padding-left: 1.5em;
+}
+
+/* Keep the question text tidy */
+.research-questions li {
+    padding-left: 0.3em;
+    margin-bottom: 0.4rem;
+}

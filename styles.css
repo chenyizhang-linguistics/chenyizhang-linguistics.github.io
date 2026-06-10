@@ -800,3 +800,14 @@ a:hover {
     color: #0066cc;
     text-decoration: underline;
 }
+
+/* Consistent page title style */
+.page-title {
+    font-size: 2rem !important;
+    margin-bottom: 2rem !important;
+    color: #5a8a9a !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    font-family: Georgia, serif !important;
+    border-bottom: none !important;
+}

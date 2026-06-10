@@ -811,3 +811,24 @@ a:hover {
     font-family: Georgia, serif !important;
     border-bottom: none !important;
 }
+
+/* Indented student projects on Teaching page */
+.teaching-project-list .student-projects {
+    margin-top: 0.5rem !important;
+    margin-left: 2.5rem !important;
+    padding-left: 1.2rem !important;
+    list-style-type: disc !important;
+}
+
+/* Prevent the general publication-list style from affecting nested student bullets */
+.teaching-project-list .student-projects li {
+    position: static !important;
+    padding-left: 0 !important;
+    margin-bottom: 0.35rem !important;
+    line-height: 1.7 !important;
+}
+
+/* Remove extra custom dash/bullet if your publication-list uses one */
+.teaching-project-list .student-projects li::before {
+    content: none !important;
+}
